@@ -324,7 +324,7 @@ a.aboutus-right-btn:hover{
 	padding:0.5em 0;
 }
 .works h3{
-	margin-top: 25px;
+	margin: 25px 0 20px;
 }
 .works a{
 	color: #E74C3C;
@@ -669,6 +669,48 @@ ul.project-share{
 }
 .contact-grids .section-title span{
 	margin: 0 auto;
+}
+.sites-column img{
+	max-width: 100%;
+}
+.sites-column{
+	list-style-type: none;
+	padding: 0 10%;
+}
+.sites-column li{
+	position: relative;
+	margin: 0 0 30px;
+}
+.sites-column li a{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .6);
+	color: #fff;
+	text-align: center;
+	padding: 25px 0 0;
+}
+.sites-column li a span{
+	font-size: 22px;
+	display: inline;
+	width: auto;
+	background: transparent;
+}
+.sites-column li a ul{
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	background: rgba(250, 250, 250, .5)
+}
+.sites-column li a ul li{
+	margin: 0 5px 0;
+	display: inline-block;
+	color: #000;
 }
 /*----responsive-design----*/
 @media (max-width:1280px){
