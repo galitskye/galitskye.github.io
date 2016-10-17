@@ -5,9 +5,9 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 html, body{
-  	font-family: 'Lato', sans-serif, trebuchet ms, arial, sans-serif;;
-    font-size: 100%;
-  	 background: #FFF;
+	font-family: 'Lato', sans-serif, trebuchet ms, arial, sans-serif;;
+  font-size: 100%;
+	background: #FFF;
 }
 body a{
 	transition:0.5s all;
@@ -19,11 +19,34 @@ body a{
 h2{
 	text-transform: uppercase;
 }
+h3{
+	margin-top: 0;
+	text-transform: uppercase;
+}
+h4{
+	font-weight: bold;
+	font-size: 20px;
+}
 @font-face {
-    font-family: 'nexa_boldregular';
-    src: url('../fonts/Nexa_Free_Bold-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'nexa_boldregular';
+  src: url('../fonts/Nexa_Free_Bold-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+blockquote{
+	border-left: 5px solid #e4e4e4;
+	padding: 0;
+}
+blockquote>ul{
+	list-style-type: none;
+	padding: 0;
+}
+blockquote>ul>li{
+	border-top: 1px solid #e4e4e4;
+	padding: 15px 0 15px 20px;
+}
+blockquote>ul>li:first-child{
+	border-top: 0;
 }
 /*-----start-header----*/
 .top-header{
@@ -161,7 +184,7 @@ nav a#pull {
 	}
 	nav a#pull:after {
 		content:"";
-		background: url('nav-icon.png') no-repeat;
+		/* background: url('nav-icon.png') no-repeat; */
 		width: 30px;
 		height: 30px;
 		display: inline-block;
@@ -246,6 +269,19 @@ a.contactme:hover{
 .aboutus-left,.aboutus-right{
 	margin:1.5em 0;
 }
+.aboutus-left blockquote{
+	padding: 5px 0 5px 10px;
+	margin-bottom: 25px;
+}
+.aboutus-left p span{
+	color: #000;
+	display: inline;
+	width: auto;
+	background: transparent;
+}
+.aboutus-right h4{
+	margin-bottom: 5px;
+}
 a.aboutus-right-btn{
 	color: #FFF;
 	font-family: 'nexa_boldregular';
@@ -260,6 +296,7 @@ a.aboutus-right-btn{
 	-moz-border-radius: 0.2em;
 	-o-border-radius: 0.2em;
 	-ms-border-radius: 0.2em;
+	text-transform: uppercase;
 }
 a.aboutus-right-btn:hover{
 	background:#00948B;
@@ -513,6 +550,9 @@ ul.project-share{
 .address{
 	margin:1em 0;
 }
+.address a{
+	text-decoration: underline;
+}
 .social-share h4{
 	font-size:1.1em;
 	color:#333333;
@@ -604,7 +644,7 @@ ul.project-share{
 	height: 40px;
 	border: none;
 	text-indent: 100%;
-	background: url("../images/to-top1.png") no-repeat 0px 0px;
+	background: #a2ffff url("../images/to-top1.png") no-repeat 0px 0px;
 }
 #toTopHover {
 	width: 40px;
@@ -615,6 +655,10 @@ ul.project-share{
 	opacity: 0;
 	-moz-opacity: 0;
 	filter: alpha(opacity=0);
+}
+/*=== CUSTOM_STYLES ====*/
+.working-time{
+	font-size: 14px !important;
 }
 /*----responsive-design----*/
 @media (max-width:1280px){
