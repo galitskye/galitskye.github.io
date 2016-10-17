@@ -1,0 +1,1122 @@
+*::-webkit-input-placeholder {
+	color: #787878;
+	opacity: 1;
+	font-family:'Scada-Regular';
+}
+*:-moz-placeholder {
+	color: #787878;
+	opacity: 1;
+	font-family:'Scada-Regular';
+}
+*::-moz-placeholder {
+	color: #787878;
+	opacity: 1;
+	font-family:'Scada-Regular';
+}
+*:-ms-input-placeholder {
+	color: #787878;
+	opacity: 1;
+	font-family:'Scada-Regular';
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	min-width: 990px;
+	font-family: 'Scada-Regular', sans-serif;
+	font-size: 16px;
+	color: #3c3c3c;
+}
+h1{
+	font: 60px 'Scada-Bold', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+    line-height: 60px;
+}
+h3{
+	font: 48px 'FiraSans-Bold', sans-serif;
+	color: #3c3c3c;
+	text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 54px;
+}
+p{
+	font: 18px 'Scada-Regular', sans-serif;
+    line-height: 24px;
+}
+h4{
+	font-size: 36px;
+}
+input{
+	width: 210px;
+	font-size: 18px;
+	border: 2px solid #e6e6e6;
+	font-family: 'Scada-Regular';
+    margin: 0 6px 20px;
+    padding: 16px 10px 18px 17px;
+}
+button, .btn_holder span,.btn_holder2 a{
+	background: url(../images/btn.jpg) repeat-x;
+	border-radius: 5px;
+	font-size: 22px;
+	color: #fff;
+	border: none;
+	font-family: 'Scada-Regular';
+    padding: 24px 39px 29px;
+    cursor: pointer;
+}
+.btn_holder span,
+.btn_holder2 a{
+	display: inline-block;
+	text-decoration: none;
+	font: 25px 'Scada-Bold', sans-serif;
+	letter-spacing: 2px;
+	color: #fff;
+	text-transform: uppercase;
+    padding: 21px 39px 28px;
+}
+form{
+	background: #fff;
+    padding: 34px 0 60px;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.line{
+	width: 240px;
+	height: 4px;
+	background: #2f73a1;
+	margin: 0 auto;
+}
+.big_line{
+	width: 720px;
+	height: 4px;
+	background: #fff;
+	margin: 0 auto;
+}
+/*      VIDEO_BG1 		*/
+#headBg {
+    width: 100%;
+    background: url(../img/wpaper2.jpg) no-repeat center center;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+#bottomBg {
+    width: 100%;
+    background: url(../img/wpaper1.jpg) no-repeat center center;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0;
+   -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#menu.fixed {
+    top:0 !important;
+}
+.fixed_menu{
+	position: fixed !important;
+	left: 0 !important;
+	z-index: 400000 !important;
+	background: #191e3c;
+	padding: 25px 0 !important;
+	width: 100% !important;
+}
+#menu.default{
+	top: -100% !important;
+}
+
+/*         FORM_STYLES 				*/
+.form1_holder{
+    position: absolute;
+    width: 960px;
+    left: 50%;
+    top: -210px;
+    margin: 0 0 0 -480px;
+}
+.form_area{
+	width: 800px;
+	border: 10px solid rgba(235,240,245,.3);
+	text-align: center;
+	margin: 0 auto;
+}
+.form_title{
+	margin: 0 0 34px;
+}
+.form_title>span{
+	font-size: 36px;
+	display: block;
+}
+.form_title span:last-child{
+	font-family: 'Scada-Bold', sans-serif;
+	color: #ff4b46;
+}
+
+
+
+/*======================================================
+
+					HEADER
+
+========================================================*/
+.video_bg1{
+	background: url(../img/headop.png) no-repeat center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    padding: 0 0 180px;
+}
+.header{
+	padding: 51px 0 120px;
+}
+.logo_holder{
+	position: relative;
+	float: left;
+	display: inline-block;
+}
+.logo_holder>img{
+	width: 200px;
+}
+.phone_holder>span{
+	text-align: right;
+	display: block;
+}
+.phone_holder>span:first-child{
+	font: 18px 'Scada-Regular', sans-serif;
+	color: #00eaff;
+	/*text-shadow: 1px 1px 2px #066cb1;*/
+}
+.phone_holder>span:last-child{
+	font: 36px 'Scada-Bold', sans-serif;
+	color: #fff;
+	text-shadow: 1px 1px 2px #5c5c5c;
+}
+.phone_holder>span:last-child>a{
+	color: #fff;
+	text-decoration: none;
+}
+.phone_holder>span:last-child>a>span{
+	font-family: 'Scada-Regular';
+}
+.fa-phone{
+    font-size: 29px;
+    padding: 0 12px 0 0;
+}
+.main_title{
+	text-align: center;
+}
+.main_title h1{
+	margin: 37px 0 39px;
+    text-shadow: 1px 1px 2px #00eaff;
+	color: #00eaff;
+}
+.have_web{
+	margin: 0 0 73px;
+}
+.have_web span{
+	display: block;
+	font-size: 36px;
+	color: #ff4b46;
+}
+.head_btn{
+	margin: 77px 0 0; 
+}
+.head_btn span{
+	font-size: 18px;
+	color: #fff;
+	display: block;
+	margin: 0 0 27px;
+}
+.head_btn img{
+	opacity: .5;
+}
+.new_title{
+	float: left;
+	padding: 20px 0 0;
+}
+.new_title>span{
+	font-size: 18px;
+    color: #fff;
+    display: block;
+    margin: 0 0 4px;
+}
+
+/*=====================================================
+
+					MAIN
+
+======================================================*/
+
+/*     				BUDGET_SECTION 					*/
+.budget{
+	background: url(../images/bg2.jpg) no-repeat center center;
+	text-align: center;
+    padding: 75px 0 324px;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.budget h3{
+    margin: 0 0 74px;
+}
+.budget h3>span{
+	color: #ff4b46;
+}
+.budget .big_line{
+	margin: 40px auto 71px;
+}
+.budget_li{
+	text-align: left;
+	width: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.bud_left{
+	position: relative;
+	display: table;
+	width: 215px;
+	height: 147px;
+	float: left;
+	display: inline-block;
+	background: url(../images/five.png) no-repeat 0 5px;
+	padding: 0 0 0 125px;
+}
+.bud_left>div{
+	display: table-cell;
+	vertical-align: middle;
+	height: 147px;
+}
+.bud_left>div>span{
+	font-size: 36px;
+}
+.bud_left:after{
+	position: absolute;
+	top: 50%;
+    right: -68px;
+    margin: -25px 0 0;
+	content: '';
+	display: inline-block;
+	background: url(../images/arrow.png) no-repeat;
+	width: 36px;
+	height: 64px;
+}
+.bud_right>li{
+	font-size: 18px;
+}
+.bud_right{
+	float: right;
+	vertical-align: top;
+	display: inline-block;
+	padding: 5px 21px 0 0;
+}
+.bud_right>li{
+	margin: 0 0 14px;
+}
+
+
+
+/*             BUSINESS_SECTION 					*/
+.business{
+	position: relative;
+	background: url(../images/bus-bg.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    padding: 235px 0 200px;
+}
+.business h3,.business h4{
+	text-align: center;
+	color: #fff;
+}
+.business h3{
+	margin: 0 0 50px;
+}
+.business h4{
+	margin: 0 0 75px;
+}
+.mark_style{
+	font-size: 0 !important;
+}
+.marks2{
+	text-align: center;
+}
+.marks1>li{
+	float: left;
+	display: inline-block;
+	position: relative;
+}
+.marks2>li{
+	display: inline-block !important;
+	position: relative;
+}
+.mark_style>li{
+	width: 320px;
+	height: 200px;
+	overflow: hidden;
+}
+.mark_style>li>img{
+	width: 100%;
+}
+.mark_style>li>div{
+	position: absolute;
+	display: table;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.mark_style>li>div>div{
+	display: table-cell;
+	vertical-align: middle;
+}
+.mark_style>li>div>div>div{
+	padding: 0 0 0 110px;
+	text-align: left;
+	background: url(../images/gal.png) no-repeat 40px center;
+}
+.mark_style>li>div>div>div>span{
+	font: 30px 'Scada-Bold', sans-serif;
+	color: #fff;
+	text-shadow: 1px 1px 2px #5c5c5c;
+}
+.bx-controls{
+	display: none;
+}
+/*               WORK_SECTION 				*/
+.work{
+	background: url(../images/bg3.jpg) no-repeat center center;
+	text-align: center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    padding: 75px 0 0;
+}
+.work_img{
+	position: relative;
+	font-size: 0;
+	padding: 0 0 128px;
+}
+.work h3{
+    margin: 0 0 66px;
+    color: #fff;
+}
+.desc_list{
+	width: 600px;
+	margin: 0 0 0 auto;
+}
+.desc_list li{
+	text-align: left;
+	font-size: 22px;
+	background: url(../images/mark.png) no-repeat 0 0;
+	padding: 5px 0 8px 50px;
+	margin: 0 0 15px;
+	color: #fff;
+}
+.img1_holder{
+	position: absolute;
+	bottom: 0;
+	left: -245px;
+	display: inline-block;
+}
+
+
+
+/*            INSTRUMENTS_SECTION 				*/
+.form2_holder{
+    position: absolute;
+    width: 960px;
+    left: 50%;
+    top: -81px;
+    margin: 0 0 0 -480px;
+}
+.form_title span:last-child>span{
+	font-family: 'Scada-Regular';
+	color: #3c3c3c;
+}
+.instruments{
+	background: url(../images/bg4.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	position: relative;
+    padding: 374px 0 130px;
+}
+.instruments h3{
+	text-align: center;
+    margin: 0 0 57px;
+}
+.instrum_li{
+	text-align: center;
+    margin: 0 0 70px;
+}
+.instruments .instrum_li:last-child{
+	margin: 0;
+}
+.instrum_li li{
+	display: inline-block;
+	vertical-align: top;
+	width: 210px;
+	text-align: center;
+    margin: 0 15px;
+}
+.instrum_li li div{
+	height: 64px;
+    margin: 0 0 22px;
+}
+.instrum_li li:first-child{
+	margin-left: 0;
+}
+.instrum_li li:last-child{
+	margin-right: 0;
+}
+.instrum_li:last-child li:nth-child(2) div {
+    margin: 10px 0 12px;
+}
+.instrum_li:last-child li:nth-child(3) div {
+    margin: 8px 0 14px;
+}
+
+/* 				GARANTIES_SECTION 				*/
+.garanties{
+    padding: 74px 0 132px;
+    overflow: hidden;
+}
+.garanties .container{
+	position: relative;
+}
+.garanties h3{
+	margin: 0 0 50px;
+}
+.gar_list{
+	width: 600px;
+}
+.gar_list li{
+	text-align: left;
+	font-size: 22px;
+	background: url(../images/mark2.png) no-repeat 0 0;
+	padding: 5px 0 8px 50px;
+	margin: 0 0 15px;
+}
+.img2_holder{
+	position: absolute;
+    bottom: -189px;
+    right: -473px;
+}
+
+/*                 SALES_SECTION 				*/
+.sales{
+	background: url(../images/bg5.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    padding: 75px 0 30px;
+}
+.sales .line{
+	background: #64bef5;
+	margin: 0 auto 23px;
+}
+.sales h3{
+	margin: 0 0 27px;
+	color: #00eaff !important;
+}
+.sales h3, .sales h4{
+	text-align: center;
+	color: #fff;
+}  
+.sales h4{
+    margin: 0 0 71px;
+}
+.sale_list{
+	text-align: center;
+}
+.sale_list>li{
+	display: inline-block;
+	border: 10px solid rgba(235,240,245,.3);
+	width: 420px;
+	text-align: left;
+	vertical-align: top;
+    margin-bottom: 40px;
+}
+.sale_list>li:nth-child(2n){
+	margin: 0 0 0 40px;
+}
+
+.sale_list>li:first-child .sec_sale{
+	padding: 164px 0 0;
+}
+.sale_list>li:first-child .price_sale{
+	padding: 102px 0 0;
+}
+
+
+
+.sale_list>li:nth-child(2) .title_sale{
+	background: #4baae6;
+    padding: 35px 0 41px;
+}
+.sale_list>li:nth-child(3) .title_sale{
+	background: #286eb4;
+    padding: 22px 0 24px;
+}
+.sale_list>li:nth-child(4) .title_sale{
+	background: #0f468c;
+    padding: 19px 0 22px;
+}
+
+.sale_list>li:nth-child(2) .title_sale>span,
+.sale_list>li:nth-child(3) .title_sale>span{
+	font-size: 34px;
+}
+.sale_list>li:nth-child(3) .title_sale>span:last-child{
+	font: 24px 'Scada-Regular', sans-serif;
+	text-transform: lowercase;
+}
+.sale_list>li:nth-child(2) .sec_sale,
+.sale_list>li:nth-child(4) .sec_sale{
+	padding: 13px 0 0;
+}
+.sale_list>li:nth-child(3) .sec_sale{
+	padding: 48px 0 0;
+}
+.sale_list>li:nth-child(2) .price_sale,
+.sale_list>li:nth-child(4) .price_sale{
+	padding: 41px 0 0;
+}
+.sale_list>li:nth-child(3) .price_sale{
+	padding: 88px 0 0;
+}
+
+
+
+
+.bg_sale{
+	background: #fff;
+}
+.bg_sale>ul>li{
+	position: relative;
+	font: 18px 'Scada-Regular', sans-serif;
+	color: #3c3c3c;
+	margin: 0 0 9px;
+	vertical-align: bottom;
+    padding: 0 0 0 12px;
+}
+.bg_sale>ul>li:before,
+.bg_sale>.third_sale>ul>li:before{
+	content: '–';
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bg_sale>ul>li:last-child{
+	margin: 0;
+}
+.title_sale{
+	text-align: center;
+	background: #aac82d;
+	text-transform: uppercase;
+    padding: 20px 0 22px;
+}
+.title_sale>span{
+    font: 25px 'Scada-Bold', sans-serif;
+    line-height: 35px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.sec_sale,
+.bg_sale>.third_sale>ul>li{
+	position: relative;
+	font-size: 18px;
+	width: 300px;
+	margin: 0 auto 12px;
+}
+.bg_sale>.third_sale>ul>li{
+	padding: 0 0 0 12px;
+}
+.sec_sale{
+	margin-bottom: 0;
+    padding-bottom: 22px !important;
+}
+.bg_sale>.third_sale>ul>li:last-child{
+	margin-bottom: 0;
+}
+.bg_sale>.third_sale>ul{
+	width: 300px;
+    margin: 0 auto;
+    background: #f0f0f0;
+    padding: 18px 50px 23px;
+}
+.bg_sale>.third_sale>ul>li:first-child{
+	color: #286eb4;
+	padding: 0;
+}
+.bg_sale>.third_sale>ul>li:first-child:before{
+	display: none;
+}
+.price_sale{
+	font: 36px 'Scada-Bold', sans-serif;
+	color: #aac82d;
+	text-align: center;
+	padding-bottom: 25px !important;
+}
+.btn_sale{
+	text-align: center;
+    padding: 0 0 50px;
+}
+.btn_sale>span{
+	display: inline-block;
+	font: 28px 'Scada-Bold', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+    background: url(../images/btn.jpg) repeat-x;
+    padding: 20px 45px 25px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+/* 				CLIENTS_SECTION 				*/
+.clients{
+	padding: 75px 0 106px;
+}
+.clients h3{
+	text-align: center;
+    margin: 0 0 52px;
+}
+.cl_left{
+	vertical-align: top;
+	display: inline-block;
+	width: 320px;
+	margin: 0 33px 0 0;
+}
+.cl_left>div:last-child{
+	position: relative;
+}
+.cl_right{
+	vertical-align: top;
+	display: inline-block;
+	width: 590px;
+}
+.cl_right p{
+	margin: 0 0 24px;
+}
+.cl_right p:nth-child(3){
+	margin: 0 0 8px;
+}
+.cl_title{
+	margin: 0 0 24px;
+}
+.cl_title span{
+	font: 36px 'Scada-Regular', sans-serif;
+	color: #3c3c3c;
+    line-height: 36px;
+}
+.cl_title span span{
+	color: #e11937;
+}
+.cl_list h4{
+	font: 32px 'Scada-Bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin: 25px 0 5px;
+	color: #e11937;
+}
+.cl_list li{
+	margin: 0 0 62px;
+}
+.cl_list li:last-child{
+	margin: 0;
+}
+.cl_list h4 span{
+	font-size: 36px;
+}
+.cl_list .btn_holder{
+	padding: 0;
+	width: 590px;
+}
+.cl_list .btn{
+	font-family: 'Scada-Regular';
+    font-size: 24px;
+    text-transform: lowercase;
+    letter-spacing: 0;
+    padding: 23px 0 28px;
+    width: 100%;
+    text-align: center;
+}
+.errors{
+	font-size: 18px;
+	margin: 0 0 18px;
+	color: #286eb4;
+}
+.number{
+	position: absolute;
+	display: inline-block;
+    bottom: -41px;
+    left: -2px;
+}
+
+
+/*          VIDEO2_SECTION 				*/
+.video_bg2{
+	/*background: rgba(0,0,0,.5);*/
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	color: #fff;
+	text-align: center;
+    padding: 97px 0 100px;
+}
+.video_bg2 .btn_holder{
+	padding: 39px 0 0;
+}
+.video_bg2 .line{
+	background: #fff;
+}
+.all{
+	font: 240px 'FiraSans-Bold', sans-serif;
+	color: #fff;
+	line-height: 197px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 2px #5c5c5c;
+}
+.video_bg2 h3{
+	color: #fff;
+    margin: 0 0 34px;
+    text-shadow: 1px 1px 2px #5c5c5c;
+}
+.questions{
+	margin: 33px 0 0;
+	text-shadow: 1px 1px 2px #5c5c5c;
+}
+.questions span{
+	display: block;
+	font-size: 36px;
+}
+.questions span:first-child{
+	font-family: 'Scada-Bold';
+}
+
+
+
+/*      MAP_AREA 			*/
+.map{
+	position: relative;
+}
+.adress_holder{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+}
+.adress_holder .container{
+	position: relative;
+}
+.adress_desc{
+	position: absolute;
+	top: 0;
+	left: 0;
+	float: left;
+	height: 465px;
+	width: 480px;
+	background: rgba(45,150,220,.8);
+	text-align: center;
+	padding: 55px 0 0;
+}
+.adress_desc h3, .adress_desc p{
+	color: #fff;
+    margin: 0 0 50px;
+}
+.adress_desc p{
+	text-align: left;
+	width: 380px;
+	margin: 0 auto;
+}
+.office_plus{
+	width: 280px;
+	margin: 70px auto 0;
+}
+.office_plus>p{
+	width: 100%;
+	text-align: center;
+}
+
+/*==================================================
+
+				FOOTER
+
+=====================================================*/
+footer{
+	padding: 45px 0 10px;
+}
+footer .phone_holder a{
+	color: #3c3c3c !important;
+}
+footer .phone_holder span:last-child{
+	color: #3c3c3c;
+    margin: 0 0 5px;
+}
+footer .phone_holder{
+	padding: 10px 0 0;
+}
+{
+
+}
+footer .logo_holder a{
+	position: absolute;
+	right: -435px;
+	bottom: 25px;
+	display: block;
+    width: 255px;
+	font: 18px 'Scada-Regular', sans-serif;
+	color: #2d96dc;
+}
+footer .logo_holder a:hover{
+	text-decoration: none;
+}
+footer .new_title{
+	padding: 30px 0 0;
+}
+footer .new_title span,
+footer .phone_holder>span:first-child,
+.mail_foot>a,
+.mail_foot>span{
+	color: #3b9538;
+}
+.mail_foot{
+	float: right;
+}
+.mail_foot>a:hover{
+	text-decoration: none;
+}
+.bx-clone{
+	opacity: 0;
+  -webkit-transition: opacity 4s ease-out;
+  -moz-transition: opacity 4s ease-out;
+  -ms-transition: opacity 4s ease-out;
+  -o-transition: opacity 4s ease-out;
+}
+/*           ANIMATION 				*/
+.anim5{
+  opacity: 0;
+  -webkit-transition: opacity 4s ease-out;
+  -moz-transition: opacity 4s ease-out;
+  -ms-transition: opacity 4s ease-out;
+  -o-transition: opacity 4s ease-out;
+}
+.anim4{
+  opacity: 0;
+  -webkit-transition: opacity 2.5s ease-out;
+  -moz-transition: opacity 2.5s ease-out;
+  -ms-transition: opacity 2.5s ease-out;
+  -o-transition: opacity 2.5s ease-out;
+}
+.anim3{
+  opacity: 0;
+  -webkit-transition: opacity 2s ease-out;
+  -moz-transition: opacity 2s ease-out;
+  -ms-transition: opacity 2s ease-out;
+  -o-transition: opacity 2s ease-out;
+}
+.anim2{
+  opacity: 0;
+  -webkit-transition: opacity 1.5s ease-out;
+  -moz-transition: opacity 1.5s ease-out;
+  -ms-transition: opacity 1.5s ease-out;
+  -o-transition: opacity 1.5s ease-out;
+}
+.anim1{
+  opacity: 0;
+  -webkit-transition: opacity 1s ease-out;
+  -moz-transition: opacity 1s ease-out;
+  -ms-transition: opacity 1s ease-out;
+  -o-transition: opacity 1s ease-out;
+}
+.anim0{
+  opacity: 0;
+  -webkit-transition: opacity 0.15s ease-out;
+  -moz-transition: opacity 0.15s ease-out;
+  -ms-transition: opacity 0.15s ease-out;
+  -o-transition: opacity 0.15s ease-out;
+}
+.anim{
+  opacity: 1 !important;
+}
+
+
+/* 					POPUP_WINDOWS 				*/
+
+.hide-layout {
+	background: #000; /* фон */
+	bottom: 0;  /* координата снизу */
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50); /* прозрачность для IE */
+	height: 100%; /* высота на всю страницу */
+	opacity: 0.6;  /* прозрачность слоя */
+	position: fixed; /* фиксируем элемент на странице*/
+	top: 0; /* координата сверху */
+	width: 100%; /* ширина на всю страницу */
+	z-index: 500000; /* z-index для перекрытия остальных элементов */
+	display: none;
+}
+
+.buy_form_title1{
+    text-align: center;
+    background: #aac82d;
+    text-transform: uppercase;
+    padding: 20px 0 22px;
+}
+.buy_form_title1>span {
+    font: 25px 'Scada-Bold', sans-serif;
+    line-height: 35px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.popup_holder{
+	width: 400px;
+	position: fixed;
+	top: 43%;
+	left: 50%;
+	margin: -230px 0 0 -200px;
+	text-align: center;
+	background: #fff;
+	padding: 0 0 9px;
+	z-index: 500001;
+}
+.popup_holder input{
+	margin: 0 0 10px ;
+}
+.popup_holder button{
+    font: 25px 'Scada-Bold', sans-serif;
+    text-transform: uppercase;
+    padding: 22px 60px 27px;
+    margin: 25px 0 0;
+}
+.close{
+	display: inline-block;
+	position: absolute;
+	top: -35px;
+	right: -35px;
+	width: 32px;
+	height: 32px;
+	background: url(../images/close.png) no-repeat 0 0;
+	cursor: pointer;	
+}
+
+.buy_form_title2{
+	background: #4baae6;
+    padding: 35px 0 41px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.buy_form_title2 span{
+	font: 34px 'Scada-Bold', sans-serif;
+	color: #fff;
+}
+
+.buy_form_title3{
+	background: #286eb4;
+    padding: 22px 0 24px;
+}
+.buy_form_title3>span{
+    font: 25px 'Scada-Bold', sans-serif;
+    line-height: 35px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.buy_form_title3>span:first-child{
+	font-size: 34px;
+	text-transform: uppercase;
+}
+.buy_form_title3>span:last-child{
+	font: 24px 'Scada-Regular', sans-serif;
+    text-transform: lowercase;
+}
+
+.buy_form_title4{
+	background: #0f468c;
+    padding: 19px 0 22px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.buy_form_title4>span{
+	font: 25px 'Scada-Bold', sans-serif;
+    line-height: 35px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.YMaps-b-balloon-content>b{
+	font-weight: bold;
+}
+.buy_form_title5 span{
+	font-size: 25px;
+}
+
+.YMaps-slider{
+	z-index: 10000 !important;
+}
+
+
+
+
+/* 				POLITIC_PAGE 			*/
+.politic_page{
+	padding: 50px 0 150px;
+}
+.politic_page h1{
+	font-size: 53px;
+	color: #3c3c3c;
+	text-align: center;
+	margin: 0 0 40px!important;
+}
+.politic_page h3{
+	font-size: 40px;
+	text-transform: inherit;
+}
+.politic_page a:hover{
+	text-decoration: none;
+}
+.politic_page p{
+	line-height: 20px;
+}
+.politic_page h1,
+.politic_page h3,
+.politic_page p{
+	margin: 0 0 20px;
+}
+.politic_page h3{
+	margin: 0 0 5px;
+}
+.btn_holder2{
+	width: 400px;
+	display: block;
+	margin: 80px auto 0;
+}
