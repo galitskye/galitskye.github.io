@@ -13,6 +13,14 @@ $(function() {
 			menu.removeAttr('style');
 		}
 	});
+	$('.parallax-window').parallax({imageSrc: 'images/header-bg.jpg'});
+	try {
+  $.browserSelector();
+    if($("html").hasClass("sm-scroll")) {
+        $.smoothScroll();
+    }
+  } catch(err) {
+  };
 });
 
 jQuery(document).ready(function($) {

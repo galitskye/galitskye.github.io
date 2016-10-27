@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 html, body{
 	font-family: 'Lato', sans-serif, trebuchet ms, arial, sans-serif;;
   font-size: 100%;
-	background: #FFF;
+	/* background: #FFF; */
 }
 body a{
 	transition:0.5s all;
@@ -50,7 +50,7 @@ blockquote>ul>li:first-child{
 }
 /*-----start-header----*/
 .top-header{
-	background: url(../images/header-bg.jpg) no-repeat;
+	/* background: url(../images/header-bg.jpg) no-repeat; */
 	background-repeat: no-repeat;
 	background-position: center;
 	-moz-background-size: cover;
