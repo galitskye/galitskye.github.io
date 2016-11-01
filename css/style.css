@@ -5,9 +5,9 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 html, body{
-	font-family: 'Lato', sans-serif, trebuchet ms, arial, sans-serif;;
+	font-family: 'Lato', sans-serif, trebuchet ms, arial, sans-serif;
   font-size: 100%;
-	background: #FFF;
+	/* background: #FFF; */
 }
 body a{
 	transition:0.5s all;
@@ -50,10 +50,12 @@ blockquote>ul>li:first-child{
 }
 /*-----start-header----*/
 .top-header{
-	background: url(../images/header-bg.jpg) no-repeat;
+	/* background: url(../images/header-bg.jpg) no-repeat; */
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	-moz-background-size: cover;
+	  -o-background-size: cover;
+	     background-size: cover;
 }
 .header{
 }
@@ -171,7 +173,7 @@ nav a#pull {
 		color: #F26D7D;
 		text-align: right;
 		position: absolute;
-		top: 19px;
+		top: 12px;
 	}
 	nav a#pull:after {
 		content:"";
@@ -183,9 +185,9 @@ nav a#pull {
 		right: 15px;
 		top: 10px;
 	}
-	nav a#pull img{
+	/* nav a#pull img{
 		margin-right:2%;
-	}
+	} */
 	.top-nav ul li a {
 		color: #2C3E50;
 		padding: 0em 0;
@@ -295,7 +297,7 @@ a.aboutus-right-btn:hover{
 /*--- quote ---*/
 .quote{
 	background:#2E3041;
-	padding:6em 0;
+	padding:3em 0;
 }
 .quote p{
 	color: #FFF;
@@ -309,7 +311,13 @@ a.aboutus-right-btn:hover{
 	color: #fff;
 }
 .quote .address a{
-	color: #E74C3C;
+	font-family: 'Lato', sans-serif, trebuchet ms, arial, sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	color: #fff;
+}
+.quote .address a:hover{
+	text-decoration: underline;
 }
 /*---//quote ---*/
 /*---- works ----*/
@@ -557,6 +565,17 @@ ul.project-share{
 .address a{
 	text-decoration: underline;
 }
+.address i{
+	font-size: 27px;
+	vertical-align: middle;
+	margin: 0 5px 0 0;
+}
+.address i.fa-skype{
+	color: #12A5F4;
+}
+.copy-right .address a{
+	color: #fff;
+}
 .social-share h4{
 	font-size:1.1em;
 	color:#333333;
@@ -623,6 +642,9 @@ ul.project-share{
 	color:#FFF;
 	font-size:0.875em;
 	margin:0.2em 0;
+}
+.copy-right .address{
+	margin: 0.25em 0;
 }
 .copy-right p a{
 	color:#FFF;
@@ -695,13 +717,14 @@ ul.project-share{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, .8);
+	background: rgba(46, 48, 65, .6);
 	color: #fff;
 	text-align: center;
 	padding: 5% 0 0;
 	background-position: center center;
-	-webkit-background-size: 100px;
-	background-size: 100px;
+	-moz-background-size: 100px;
+	  -o-background-size: 100px;
+	     background-size: 100px;
 }
 .sites-column li:hover{
 	-moz-transform: scale(1.11,1.11); /* Для Firefox */

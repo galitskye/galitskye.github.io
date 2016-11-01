@@ -1,12 +1,15 @@
 <!DOCTYPE HTML>
-<html>
+<html class="sm-scroll">
 	<head>
 		<title>Galitsky Eugene</title>
 		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-		<script src="js/jquery.min.js"></script>
 		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<link href="css/font-awesome.min.css" rel='stylesheet' type='text/css' />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/move-top.js"></script>
 		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript" src="js/parallax.min.js"></script>
+		<script type="text/javascript" src="js/scroll.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" type="image/png" href="favicon.png" />
@@ -14,7 +17,7 @@
 	<body>
 		<!-- start-header -->
 			<div class="header">
-					<div class="top-header">
+					<div class="top-header parallax-window">
 						<div class="container">
 						<div class="logo">
 							<img src="images/logo2.png" title="Galitsky Eugen" />
@@ -35,7 +38,7 @@
 									<span></span>
 								</li>
 							</ul>
-							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+							<a href="#" id="pull"><img src="images/nav-icon.png" width="35px" title="menu" /></a>
 						</nav>
 						<div class="clearfix"> </div>
 						<!--top-header-info-->
@@ -69,17 +72,20 @@
 							<p><span>Operation systems: </span>Windows, Ubuntu, Mac OS</p>
 							<p><span>Programming languages: </span>JavaScript(Basic)</p>
 							<p><span>Markup languages: </span>HTML, CSS, Scss</p>
+							<p><span>Methodologies: </span>BEM</p>
 							<p><span>Frameworks: </span>Bootstrap</p>
-							<p><span>Build system: </span>Gulp</p>
+							<p><span>Libraries: </span>jQuery</p>
+							<p><span>Build system: </span>Gulp(Bower)</p>
 							<p><span>Training: </span>Spalah It-School. Markup Intensive. August 2015</p>
 							<p><span>Trainings online: </span>Html Academy, Free Code Camp, Code Academy</p>
 							<p><span>Control version system: </span>Git</p>
+							<p><span>Eanglish: </span>Pre-intermediate</p>
 							<p><span>IDE: </span>PhpStorm</p>
-							<p><span>Programms: </span>SublimeText, Adobe Photoshop, Adobe Illustrator, Sketch</p>
+							<p><span>Programms: </span>SublimeText (Emmet, LiveReload etc.), Adobe Photoshop, Adobe Illustrator</p>
 						</blockquote>
 						<h4>Education:</h4>
 						<blockquote>
-							<p><span>University: </span>National Technical University «Kharkiv Polytechnic Institute» (2008-2014)</p>
+							<p><span>University: </span>National Technical University &laquo;Kharkiv Polytechnic Institute&raquo; (2008-2014)</p>
 							<p><span>Department: </span>Computer science and information technologies</p>
 							<p><span>Specialty: </span>Multimedia information technologies and systems</p>
 						</blockquote>
@@ -95,7 +101,7 @@
 										<li>Creating adaptive versions of existing sites;</li>
 										<li>Creating templates for auctions.</li>
 									</ul>
-									<p class="working-time">2016 &#8211; present day</p>
+									<p class="working-time">2016 (June) &#8211; present day</p>
 								</li>
 								<li>
 									<h4>Company &laquo;Seo-trend&raquo;</h4>
@@ -103,14 +109,14 @@
 										<li>Nesting sites and Landing;</li>
 										<li>Creating adaptive versions of existing sites.</li>
 									</ul>
-									<p class="working-time">2016 &#8211; 2016</p>
+									<p class="working-time">2016 (January) &#8211; 2016 (June)</p>
 								</li>
 								<li>
 									<h4>Freelance</h4>
 									<ul>
 										<li>Nesting sites and Landing.</li>
 									</ul>
-									<p class="working-time">2015 &#8211; 2016</p>
+									<p class="working-time">2015 (September) &#8211; 2016 (January)</p>
 								</li>
 								<li>
 									<h4>Online shop &laquo;essential.com.ua&raquo;</h4>
@@ -119,11 +125,11 @@
 										<li>SEO Optimization;</li>
 										<li>Copywrighting.</li>
 									</ul>
-									<p class="working-time">2014 &#8211; 2015</p>
+									<p class="working-time">2014 (May) &#8211; 2015 (June)</p>
 								</li>
 							</ul>
 						</blockquote>
-						<a class="aboutus-right-btn" href="#">Download resume</a>
+						<a class="aboutus-right-btn" href="resume/Galitsky_Eugen.docx" download>Download resume</a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -138,8 +144,8 @@
 							<span> </span>
 						</div>
 						<div class="address">
-							<label>Gmail: <a href="mailto:galitsky.e.o@gmail.com">galitsky.e.o@gmail.com</a></label>
-							<label>Skype: <a href="tell:galitsky_e.o.">galitsky_e.o.</a></label>
+							<label><img src="images/gmail.png" alt="" /> <a href="mailto:galitsky.e.o@gmail.com">galitsky.e.o@gmail.com</a></label>
+							<label><i class="fa fa-skype" aria-hidden="true"></i> <a href="tell:galitsky_e.o.">galitsky_e.o.</a></label>
 						</div>
 						<div class="clearfix"> </div>
 						<div class="address">
@@ -288,24 +294,18 @@
 
 			<div class="copy-right text-center">
 				<div class="container clearfix">
-					<div class="col-md-6">
-						<label>Copyright 2016. All rights reserved by <a href="http://w3layouts.com/">W3layouts</a>.</label>
+					<div class="col-md-12">
+						<div class="contact-grids">
+							<div class="address">
+								<a href="mailto:galitsky.e.o@gmail.com">galitsky.e.o@gmail.com</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<label>2016</label>
 						<a href="#" id="toTop" style="display: block;">
 							<span id="toTopHover" style="opacity: 1;"></span>
 						</a>
-					</div>
-					<div class="col-md-6">
-						<div class="contact-grids">
-							<div class="address">
-								<label>Gmail: <a href="mailto:galitsky.e.o@gmail.com">galitsky.e.o@gmail.com</a></label>
-								<label>Skype: <a href="tell:galitsky_e.o.">galitsky_e.o.</a></label>
-							</div>
-							<div class="clearfix"> </div>
-							<div class="address">
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="clearfix"> </div>
 					</div>
 				</div>
 			</div>
