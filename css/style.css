@@ -217,6 +217,7 @@ nav a#pull {
 	font-size: 3em;
 	margin: 0;
 	line-height: 1.3em;
+	text-shadow: 0 0 2px #000;
 }
 a.contactme{
 	color: #FFF;
@@ -297,7 +298,7 @@ a.aboutus-right-btn:hover{
 /*--- quote ---*/
 .quote{
 	background:#2E3041;
-	padding:3em 0;
+	/* padding:3em 0; */
 }
 .quote p{
 	color: #FFF;
@@ -573,6 +574,9 @@ ul.project-share{
 .address i.fa-skype{
 	color: #12A5F4;
 }
+.address i.fa-linkedin-square{
+	color: #1a84bc;
+}
 .copy-right .address a{
 	color: #fff;
 }
@@ -686,8 +690,23 @@ ul.project-share{
 .working-time{
 	font-size: 14px !important;
 }
-.contact-grids{
-	text-align: center
+.quote .contact-grids{
+	position: relative;
+	text-align: left;
+	width: 50%;
+	margin: 0 0 0 auto;
+  padding: 3em 0 3em 20px;
+}
+.quote .contact-grids:before{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 100%;
+	display: inline-block;
+	width: 250px;
+	height: 360px;
+	background: url('../images/small-comp.png') no-repeat;
+	background-size: 250px;
 }
 .contact-grids .section-title span{
 	margin: 0 auto;
@@ -787,9 +806,9 @@ ul.project-share{
 	.quote p {
 		font-size: 1.8em;
 	}
-	.quote {
+	/* .quote {
 		padding: 4em 0;
-	}
+	} */
 	.copy-right {
 		padding: 2em 0;
 	}
@@ -817,9 +836,9 @@ ul.project-share{
 	.quote p {
 		font-size: 1.8em;
 	}
-	.quote {
+	/* .quote {
 		padding: 4em 0;
-	}
+	} */
 	.copy-right {
 		padding: 2em 0;
 	}
@@ -862,9 +881,9 @@ ul.project-share{
 	.quote p {
 		font-size: 1.5em;
 	}
-	.quote {
+	/* .quote {
 		padding: 3em 0;
-	}
+	} */
 	.copy-right {
 		padding: 2em 0;
 	}
@@ -884,6 +903,16 @@ ul.project-share{
 	.test-people-pic {
 		float: none;
 		text-align: left;
+	}
+}
+@media (max-width:550px){
+	.quote .contact-grids{
+		width: 100%;
+		padding: 3em 0;
+		text-align: center;
+	}
+	.quote .contact-grids:before{
+		display: none;
 	}
 }
 @media (max-width:480px){

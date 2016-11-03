@@ -13,7 +13,7 @@ $(function() {
 			menu.removeAttr('style');
 		}
 	});
-	$('.parallax-window').parallax({imageSrc: 'images/header-bg.jpg'});
+	$('.parallax-window').parallax({imageSrc: 'images/gall.jpg'});
 	try {
   $.browserSelector();
     if($("html").hasClass("sm-scroll")) {
