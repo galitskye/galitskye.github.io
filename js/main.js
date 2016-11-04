@@ -15,8 +15,7 @@ $(function() {
 	});
 	$('.parallax-window').parallax({
 		imageSrc: 'images/gall.jpg',
-		positionY: '-120px',
-		androidFix: false
+		positionY: '-120px'
 	});
 	try {
   $.browserSelector();
