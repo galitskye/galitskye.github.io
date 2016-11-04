@@ -13,7 +13,11 @@ $(function() {
 			menu.removeAttr('style');
 		}
 	});
-	$('.parallax-window').parallax({imageSrc: 'images/gall.jpg'});
+	$('.parallax-window').parallax({
+		imageSrc: 'images/gall.jpg',
+		positionY: '-120px',
+		androidFix: false
+	});
 	try {
   $.browserSelector();
     if($("html").hasClass("sm-scroll")) {
