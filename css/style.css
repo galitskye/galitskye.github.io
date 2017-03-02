@@ -209,7 +209,7 @@ nav a#pull {
 }
 /*----top-header-info----*/
 .top-header-info{
-	margin-top: 18em;
+	margin-top: 24em;
 }
 .top-header-info p{
 	color: #FFF;
@@ -780,7 +780,7 @@ ul.project-share{
 /*----responsive-design----*/
 @media (max-width:1280px){
 	.top-header-info {
-		margin-top: 15em;
+		margin-top: 18em;
 	}
 	.top-header {
 		min-height: 700px;
