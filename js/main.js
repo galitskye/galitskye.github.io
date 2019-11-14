@@ -1,38 +1,43 @@
-$(function() {
-	var pull 		= $('#pull');
-		menu 		= $('nav ul');
-		menuHeight	= menu.height();
-	$(pull).on('click', function(e) {
-		e.preventDefault();
-		menu.slideToggle();
-	});
-
-	$(window).resize(function(){       //   RESIZE WINDOW FUNCTION
-		var w = $(window).width();
-		if(w > 320 && menu.is(':hidden')) {
-			menu.removeAttr('style');
-		}
-	});
-	$('.parallax-window').parallax({
-		imageSrc: 'images/gall.jpg',
-		positionY: '-120px',
-		positionX: 'center'
-	});
-	try {
-  $.browserSelector();
-    if($("html").hasClass("sm-scroll")) {
-        $.smoothScroll();
+const check = () => {
+    if (!('serviceWorker' in navigator)) {
+        throw new Error('No Service Worker support!')
     }
-  } catch(err) {
-  };
-});
+    if (!('PushManager' in window)) {
+        throw new Error('No Push API Support!')
+    }
+};
 
-jQuery(document).ready(function($) {
-	// ANCHORS
-	$(".scroll").click(function(event){		
-		event.preventDefault();
-		$('html,body').animate({scrollTop:$(this.hash).offset().top - 80},1000);
-	});
-	
-	$().UItoTop({ easingType: 'easeOutQuart' });
-});
+const registerServiceWorker = async () => {
+    const swRegistration = await navigator.serviceWorker.register('js/service.js');
+    return swRegistration;
+};
+
+const requestNotificationPermission = async () => {
+    const permission = await window.Notification.requestPermission();
+    
+    if(permission !== 'granted'){
+        throw new Error('Permission not granted for Notification');
+    }
+};
+
+const showLocalNotification = (title, body, swRegistration) => {
+    const options = {
+        body,
+        // here you can add more properties like icon, image, vibrate, etc.
+    };
+    swRegistration.showNotification(title, options);
+};
+
+const main = async () => {
+    check();
+    const swRegistration = await registerServiceWorker();
+    const permission =  await requestNotificationPermission();
+    let i = 1;
+    
+    setInterval(() => {
+        showLocalNotification(`Title ${i}`, `Message ${i}`, swRegistration);
+        i++
+	}, 2000);
+};
+
+main();
